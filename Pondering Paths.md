@@ -20,6 +20,14 @@ This module will teach you the basics of Linux file paths! A path from the files
   ```
    pwn.college{4eHhkMUUr9OUV-EgZN0AGDgfsbD.dVDN1QDL3cTN0czW}
 ```
+## 2.3 Position thy self
+
+  In this challenge, learn the use of the `cd` command, which is used to change directories. We have to execute /challenge/run from an unknown directory. First we execute /challenge/run in the home directory. It gives an error an dreveals the directory from where we have to execute it from. In my case, it was /var/log. I changed directory by typing `cd /var/log`, we then execute `/challenge/run` to get the flag.
+
+  ### Flag
+  ```
+   pwn.college{8linXITSQbwIFVi_mqBjGt4Fv7B.dZDN1QDL3cTN0czW}
+```
 
 
   
