@@ -22,12 +22,62 @@ This module will teach you the basics of Linux file paths! A path from the files
 ```
 ## 2.3 Position thy self
 
-  In this challenge, learn the use of the `cd` command, which is used to change directories. We have to execute /challenge/run from an unknown directory. First we execute /challenge/run in the home directory. It gives an error an dreveals the directory from where we have to execute it from. In my case, it was /var/log. I changed directory by typing `cd /var/log`, we then execute `/challenge/run` to get the flag.
+  In this challenge, we learnt how to use the `cd` command to change directories. We have to execute /challenge/run from an unknown directory. First, we execute /challenge/run in the home directory. It gives an error and reveals the directory from which we must execute it. In my case, it was /var/log. I changed directory by typing `cd /var/log`, we then executed `/challenge/run` to get the flag.
 
   ### Flag
   ```
    pwn.college{8linXITSQbwIFVi_mqBjGt4Fv7B.dZDN1QDL3cTN0czW}
 ```
+
+ ## 2.4 Position elsewhere
+
+  Same process as 2.3, tried trial and error until I got the correct directory to change to, then executed `/challenge/run`.
+
+  ### Flag
+  ```
+    pwn.college{8linXITSQbwIFVi_mqBjGt4Fv7B.dZDN1QDL3cTN0czW}
+```
+
+## 2.5 Position yet elsewhere
+
+   Same process as 2.3, tried trial and error until I got the correct directory to change to, then executed `/challenge/run`.
+
+   ### Flag
+   ```
+   pwn.college{sHOXAwmJpuvqFkEda3VEzn07fcu.dhDN1QDL3cTN0czW}
+```
+
+## 2.6 implicit relative paths, from /
+
+  This challenge introduces us to relative paths. These are basically relative to the current directory. In this challenge, we are asked to run `/challenge/run` from a relative path, while having a current directory of `/`. This can be achieved by `cd /`. Then we type `challenge/run` to get the flag.
+
+  ### Flag
+  ```
+pwn.college{4upOT1XfJ7HA5bmuXcKg8r5atpM.dlDN1QDL3cTN0czW}
+```
+
+## 2.7 Explicit relative paths, from /
+
+Previously, your relative path was "naked": it directly specified the directory to descend into from the current directory. In this level, we're going to explore more explicit relative paths. If we try to execute `/challenge/run` from the directory `/` normally, it doesn't work. We have to use a relative path while being in the `/` directory, hence executing `./challenge/run` from `/` gives us the flag
+
+### Flag
+```
+pwn.college{Iiwst5NNI4ErXVGt6O-6P2OmwkF.dBTN1QDL3cTN0czW}
+```
+
+## 2.8 implicit relative path
+
+In this challenge, we are required to run `./run` from `/challenge` directory.
+
+### Flag
+```
+pwn.college{Ul8-kmkJLH5E3y2xzTKh_PIiaTO.dFTN1QDL3cTN0czW}
+```
+## 2.9 Home sweet home
+
+
+
+
 
 
   
