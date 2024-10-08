@@ -8,6 +8,18 @@ This module will teach you the basics of Linux file paths! A path from the files
 
 
   ### Flag
+  ```
   pwn.college{EsLlv5qGEozMbT47a5uu9O2S_v1.dhzN5QDL3cTN0czW}
+```
+
+## 2.2 Program and absolute paths
+
+  In this challenge, we had to execute `run` , which is in the `challenge` directory. However, we had to invoke this by using an absolute path which can be done with `/`. Hence, we run the command /challenge/run to get the flag.
+
+  ### Flag
+  ```
+   pwn.college{4eHhkMUUr9OUV-EgZN0AGDgfsbD.dVDN1QDL3cTN0czW}
+```
+
 
   
