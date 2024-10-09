@@ -75,6 +75,14 @@ pwn.college{Ul8-kmkJLH5E3y2xzTKh_PIiaTO.dFTN1QDL3cTN0czW}
 ```
 ## 2.9 Home sweet home
 
+In this challenge, we use the command `echo` to display a certain argument or file. First, we use `echo LOOK: ~` as shown in the tutorial. This displays `LOOK: /home/hacker` to us. One of the restrictions is that the file has to be less than 3 characters. So, we need to get the flag from the home directory through a file which is less than 3 characters so I named it a. Then I executed `/challenge/run ~/a` since only the leading ~ is expanded. This gave me the flag
+
+### Flag
+```
+pwn.college{IrRq6qUnx4nk2fKJgBjkbxkb9g9.dNzM4QDL3cTN0czW}
+```
+
+
 
 
 
