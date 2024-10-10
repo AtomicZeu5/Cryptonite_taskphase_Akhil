@@ -1,5 +1,5 @@
 # OASIS CTF
-During this cpature-the-flag event, I completed 8 challenges. Those are:
+During this capture-the-flag event, I completed 8 challenges. Excluding the first 3, those are:
 
 ## READY PLAYER ONE
 In this, an audio file was given which had beeps in different time gaps. I figured it was morse code and ran it through a morse code translator online and found the flag: `OASISM0R5EM4N1PU7470R` The key was: OASIS{M0R5E_M4N1PU7470R}
