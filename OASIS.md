@@ -16,7 +16,7 @@ The flag is hidden inside the book, we have to find it. I used `ctrl+f` to searc
 
 ## Jekylle and Hide!
 
-In this challenge, we are given a link https://jekylle-and-hide.oasis.cryptonite.live/. Opening this takes us into a virtual library of sorts. In the hint, they menton the work `inspect` so my first thought was to Inspect element every part of the page as it said the key was split into 2 parts. Inspecting revealed the first half of the key, then I input this as the username which it accepted and asked for a password. Then, when browsing through more data in the inspect element window revealed a set of numbers which looked like a password. I entered this and got the second half of the key. The key was `OASIS{th15_15_part1_!nd_h3r3_go35_1h3_n3xt!!}`
+In this challenge, we are given a link https://jekylle-and-hide.oasis.cryptonite.live/. Opening this takes us into a virtual library of sorts. In the hint, they mentioned the word `inspect` so my first thought was to `Inspect element` every part of the page as it said the key was split into 2 parts. Inspecting revealed the first half of the key, then I input this as the username which it accepted and asked for a password. Then, while browsing through more data in the inspect element window, it revealed a set of numbers which looked like a password. I entered this and got the second half of the key. The key was `OASIS{th15_15_part1_!nd_h3r3_go35_1h3_n3xt!!}`
 
 ## Keynough is enough
 
