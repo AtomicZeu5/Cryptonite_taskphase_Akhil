@@ -9,7 +9,7 @@ As the darkness recedes, Halliday's voice echoes with the chilling news that Inn
 
 https://drive.proton.me/urls/VDMJTAVBH4#nCpqsQV4fGjN
 
-This link contains a file. In the hint, it stated that the flag was hidden within the image, so I tried to obtain its metada and found out that the author of the image was named `OASIS{m4ta_af_04515}` hence, the flag
+This link contains a file. In the hint, it stated that the flag was hidden within the image, so I tried to obtain its metadata and found out that the author of the image was named `OASIS{m4ta_af_04515}` hence, the flag
 
 ## String me to sleep
 The flag is hidden inside the book, we have to find it. I used `ctrl+f` to search for `OASIS{` to find and found out the key was `OASIS{y0u_fou7d_m3} `
